@@ -119,7 +119,7 @@ graph.getWeight = function(){
 		var y = d3.select(this).attr('cy');
 
 		var weight = d.Conversies;
-		var pos = graph.getPath(x);
+		var pos = Math.abs(graph.getPath(x)-50);
 
 		if(d.ConversieRatio != 10 && i <= graph.active){
 			//when not on the middle point
