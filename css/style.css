@@ -65,3 +65,22 @@ p{
 #week span{
 	font-size: 46px;
 }
+
+.divide{
+	position: absolute;
+	bottom: 5px;
+	left: 7px;
+	right: 7px;
+	text-align: center;
+
+	font-family: 'helvetica', 'arial', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+.divide.left{
+	text-align: left;
+}
+.divide.right{
+	text-align: right;
+}
